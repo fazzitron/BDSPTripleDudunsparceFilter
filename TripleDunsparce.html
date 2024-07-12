@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			table, th, td {
+			  border:1px solid black;
+			}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script>
+			function splitFile(contents){
+				ret = []
+				lines = contents.split('\n');
+				for (var i = 1; i < lines.length; i++){
+					ret.push(lines[i].split(','));
+				}
+				return ret;
+			}
+			
+			function checkSegments(PID){
+				var ipid = parseInt(PID, 16);
+				if ((ipid % 100) == 0){
+					return 3;
+				} else {
+					return 2;
+				}
+			}
+			
+			function checkPIDs(pokes){
+				triples = [];
+				for (var i = 0; i < pokes.length; i++){
+					poke = pokes[i];
+					PID = poke[2];
+					if (checkSegments(PID) == 3){
+						adv = poke[0];
+						shiny = poke[3];
+						nature = poke[4];
+						ability = poke[5];
+						hpIV = poke[6];
+						atkIV = poke[7];
+						defIV = poke[8];
+						spaIV = poke[9];
+						spdIV = poke[10];
+						speIV = poke[11];
+						gender = poke[12];
+						
+						dudunTriple = [adv, PID, shiny, nature, ability, hpIV, atkIV, defIV, spaIV, spdIV, speIV, gender];
+						triples.push(dudunTriple);
+					}
+				}
+				return triples;
+			}
+			
+			function printTriples(triples){
+				if (triples.length == 0){
+					$("#pokes").text("No Triple Segment Shinies Found");
+					return;
+				}
+				$("#status").text(triples.length + " Triple Segment(s) found!");
+				$("#pokes").find('tbody')
+				for (var i = 0; i < triples.length; i++){
+					triple = triples[i];
+					var entry = "<tr>"
+					for (var j = 0; j < triple.length; j++){
+						var entry = entry +
+							"<td>" +
+							triple[j] +
+							"</td>";
+					}
+					entry += "</tr>";
+					console.log("Adding "+entry);
+					$("#pokes").find('tbody').append(entry);
+				}
+			}
+			
+			function openFile(e){
+				var file = e.target.files[0];
+				if (!file){
+					alert("Not a valid file");
+					return;
+				}
+				console.log(file);
+				var reader = new FileReader();
+				console.log("test0");
+				reader.onload = function(e) {
+					dunArray = splitFile(e.target.result);
+					console.log(dunArray);
+					triples = checkPIDs(dunArray);
+					console.log(triples);
+					printTriples(triples);
+				}
+				reader.onabort = function(e){
+					console.log(e);
+				}
+				reader.onerror = function(e){
+					console.log(e);
+				}
+				reader.readAsText(file);
+			}
+			
+			function setListener(){
+				document.getElementById('dunsparceCSV').onchange = function(e){
+					openFile(e);
+				}
+			}
+		</script>
+	</head>
+	<body onLoad="setListener()">
+		<input type="file" id="dunsparceCSV"/>
+		<h3>Three Segment Dunsparces</h3>
+		<p id="status">Please load a file</p>
+		<table id="pokes">
+			<tr>
+				<th>Advances</th>
+				<th>PID</th>
+				<th>Shiny</th>
+				<th>Nature</th>
+				<th>Ability</th>
+				<th>HP IV</th>
+				<th>ATK IV</th>
+				<th>DEF IV</th>
+				<th>SpA IV</th>
+				<th>SpD IV</th>
+				<th>Spe IV</th>
+				<th>Gender</th>
+			</tr>
+		</table>
+	</body>
+</html>

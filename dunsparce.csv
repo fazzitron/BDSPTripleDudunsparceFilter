@@ -1,0 +1,101 @@
+Advances,EC,PID,Shiny,Nature,Ability,HP,Atk,Def,SpA,SpD,Spe,Gender,Characteristic
+804,F05D87C3,18BFFCB0,Star,Naughty,1: Run Away,26,11,1,31,31,31,♀,Alert to sounds
+2458,8AE2B8AD,0B7BEF7B,Star,Rash,1: Run Away,31,19,2,26,31,31,♂,Alert to sounds
+2828,F2EAA4C2,D2E236E6,Star,Mild,0: Serene Grace,31,31,4,14,8,31,♀,Takes plenty of siestas
+3384,F3154803,428BA684,Star,Hardy,0: Serene Grace,31,10,4,31,11,31,♀,Alert to sounds
+4185,813D2AD2,F62D1224,Star,Brave,1: Run Away,23,13,31,31,14,31,♀,Mischievous
+4413,BA141EEC,D4AA30AD,Star,Lax,1: Run Away,31,31,19,23,31,4,♂,Somewhat vain
+5302,C18F8AA9,4FFFABF8,Star,Jolly,0: Serene Grace,5,31,5,10,31,31,♂,Likes to thrash about
+5619,F75F350A,51BEB5BA,Star,Mild,0: Serene Grace,31,31,21,26,25,31,♀,Takes plenty of siestas
+6624,26D70B25,DB073F0B,Star,Relaxed,0: Serene Grace,31,19,1,31,25,31,♂,Alert to sounds
+9462,B4953152,FBAE1FA5,Star,Gentle,0: Serene Grace,20,31,31,3,31,17,♀,Somewhat vain
+9674,362CE42D,DEE93AE4,Star,Timid,0: Serene Grace,1,0,31,26,31,31,♀,Somewhat vain
+12058,705D3AC1,3460D065,Star,Bashful,0: Serene Grace,0,31,31,30,17,31,♀,Alert to sounds
+12484,0244EA88,AE104A11,Star,Serious,1: Run Away,31,31,31,20,31,17,♀,Capable of taking hits
+13875,2B47D3AE,99AA7DA5,Star,Docile,0: Serene Grace,10,11,31,18,31,31,♂,Somewhat vain
+14952,4A8D9F92,E7320339,Star,Sassy,0: Serene Grace,31,12,2,31,31,20,♀,Mischievous
+15788,48A5B5A9,92C676C9,Star,Naive,0: Serene Grace,31,31,1,6,31,25,♀,Somewhat vain
+16034,C5A086FE,FAC61ECB,Star,Relaxed,0: Serene Grace,31,31,7,31,10,30,♂,Mischievous
+17296,65C1EA81,F30B1701,Star,Quiet,0: Serene Grace,31,3,20,31,9,31,♀,Alert to sounds
+17327,2DAEE706,B47E5074,Star,Calm,0: Serene Grace,31,6,9,31,31,13,♀,Takes plenty of siestas
+17414,DCF63A54,028AE68C,Star,Relaxed,0: Serene Grace,31,31,10,31,23,24,♂,Mischievous
+18894,1B2D092D,6E198A15,Star,Rash,0: Serene Grace,30,31,31,19,9,31,♀,Alert to sounds
+19112,57F25AAC,83386735,Star,Relaxed,0: Serene Grace,31,31,20,2,21,31,♂,Takes plenty of siestas
+19240,BD9088AA,F60E120D,Star,Naughty,1: Run Away,13,31,31,31,0,31,♀,Likes to thrash about
+19375,47425ED6,24AEC0AA,Star,Calm,0: Serene Grace,31,31,7,14,31,2,♀,Somewhat vain
+19386,1F5AB58E,230AC702,Square,Modest,1: Run Away,22,31,2,31,31,12,♂,Likes to thrash about
+20500,F1703C14,3828DC2E,Star,Hardy,0: Serene Grace,9,31,31,15,31,23,♀,Somewhat vain
+22071,DE05B86E,04F3E0F7,Star,Brave,0: Serene Grace,31,22,31,21,31,9,♂,Capable of taking hits
+22857,225B26C5,2568C16E,Star,Hardy,1: Run Away,31,26,17,31,28,31,♀,Alert to sounds
+24037,EA89083A,4651A25D,Star,Jolly,1: Run Away,31,3,6,31,31,23,♀,Mischievous
+24563,1FE43394,B9065D08,Star,Docile,0: Serene Grace,27,31,31,0,14,31,♀,Capable of taking hits
+24678,F0E27CC2,1301F70D,Star,Lonely,0: Serene Grace,13,31,31,7,23,31,♂,Likes to thrash about
+25186,583145B0,A788438A,Star,Bold,1: Run Away,13,14,2,31,31,31,♀,Mischievous
+26086,0DFC202C,576BB36F,Star,Quirky,0: Serene Grace,27,31,31,5,18,31,♂,Capable of taking hits
+27925,7F3A0FCD,857F617D,Star,Bold,0: Serene Grace,7,31,9,28,31,31,♂,Alert to sounds
+28268,C12BAC34,280FCC09,Star,Docile,0: Serene Grace,2,25,30,31,31,31,♀,Mischievous
+29446,5313595B,C76A2367,Star,Lax,1: Run Away,12,17,31,31,9,31,♂,Alert to sounds
+29805,7F5621C1,CE802A8D,Star,Quiet,1: Run Away,31,31,20,31,31,2,♀,Likes to thrash about
+30290,17F55516,D091349F,Star,Docile,0: Serene Grace,31,8,0,31,19,31,♂,Takes plenty of siestas
+30733,EC7FFED5,BA335E35,Star,Bashful,0: Serene Grace,31,31,17,18,31,21,♂,Somewhat vain
+32086,C357F0B2,201BC413,Square,Bashful,0: Serene Grace,26,31,31,31,15,26,♀,Mischievous
+32252,31C11FB0,D99D3D9A,Star,Adamant,1: Run Away,25,10,11,31,31,31,♂,Alert to sounds
+34095,E3E626A6,5552B152,Star,Timid,0: Serene Grace,25,31,31,7,31,23,♀,Somewhat vain
+34324,5FEAB246,2E08CA01,Star,Quiet,0: Serene Grace,31,29,31,31,8,18,♂,Mischievous
+35745,1304460F,5926BD2E,Square,Quiet,0: Serene Grace,31,4,31,18,4,31,♀,Alert to sounds
+36425,589AE188,26D6C2D6,Star,Bashful,0: Serene Grace,31,31,31,12,31,7,♀,Takes plenty of siestas
+37336,C9EA02E5,EEE00AED,Star,Rash,0: Serene Grace,31,28,8,31,31,16,♀,Mischievous
+40762,2A277948,86B962B1,Square,Naughty,1: Run Away,16,31,17,25,31,31,♂,Somewhat vain
+43308,E6F86F29,FD261927,Star,Rash,0: Serene Grace,31,31,23,31,17,28,♀,Mischievous
+46248,2B7A7D6E,77589353,Star,Sassy,0: Serene Grace,31,12,31,31,28,27,♂,Mischievous
+46550,97E760CD,5B85BF88,Star,Docile,0: Serene Grace,31,31,4,31,7,16,♀,Takes plenty of siestas
+46674,70208094,3101D50F,Star,Quirky,0: Serene Grace,31,19,31,16,20,31,♀,Takes plenty of siestas
+46972,F1F09A13,E6E002E0,Star,Quiet,0: Serene Grace,9,4,31,31,1,31,♀,Alert to sounds
+47432,406E8830,ACC648C3,Star,Modest,0: Serene Grace,31,31,31,29,15,31,♂,Takes plenty of siestas
+47581,D80D03D4,B2505655,Star,Timid,0: Serene Grace,31,31,20,6,5,31,♂,Takes plenty of siestas
+48544,6A6A3014,DAA13EAB,Star,Calm,1: Run Away,28,31,31,14,22,31,♂,Likes to thrash about
+49028,A7F8BDA1,94507050,Star,Mild,1: Run Away,31,3,5,22,31,31,♀,Alert to sounds
+49502,106D1E17,E3B507BC,Star,Bashful,0: Serene Grace,9,31,31,31,11,22,♀,Likes to thrash about
+49719,9BAB9F84,5D21B926,Star,Careful,0: Serene Grace,20,31,9,31,31,4,♂,Mischievous
+50736,8441B815,5360B769,Star,Relaxed,0: Serene Grace,26,30,31,31,16,31,♀,Alert to sounds
+51523,45027E3B,D3DD37D3,Star,Gentle,0: Serene Grace,31,7,31,31,0,26,♀,Capable of taking hits
+52597,044D8B67,BA8A5E8A,Star,Quiet,1: Run Away,31,31,18,16,12,31,♂,Takes plenty of siestas
+53503,7336DC45,66168219,Star,Quirky,0: Serene Grace,21,14,31,31,31,8,♂,Somewhat vain
+54570,1AB10FE5,FA391E3A,Star,Quiet,1: Run Away,31,12,8,31,31,4,♀,Mischievous
+54749,AE974E7E,1AB1FEBF,Star,Impish,0: Serene Grace,31,31,10,11,31,10,♀,Somewhat vain
+55344,BBB73C9A,FC161810,Star,Quirky,0: Serene Grace,25,31,31,31,21,31,♀,Capable of taking hits
+56959,CB7809B5,9EFF7AF7,Square,Hardy,0: Serene Grace,31,3,4,31,31,23,♀,Mischievous
+57716,078980A8,93E277EF,Star,Adamant,0: Serene Grace,31,31,31,11,8,23,♂,Capable of taking hits
+58285,BC92D8E9,D1163516,Star,Quirky,0: Serene Grace,19,5,31,31,3,31,♀,Alert to sounds
+60408,221009BA,CDBC29BE,Star,Modest,1: Run Away,31,31,3,31,31,27,♂,Mischievous
+60419,1C8CA6DA,59A1BDA1,Star,Brave,0: Serene Grace,4,31,31,2,31,22,♂,Likes to thrash about
+61117,94C3B82D,BEAC5AAD,Star,Quirky,0: Serene Grace,31,31,31,27,21,21,♂,Takes plenty of siestas
+61167,1C63341B,A5604160,Star,Docile,0: Serene Grace,30,30,31,31,31,25,♂,Somewhat vain
+61436,6E78B912,DA1C3E1E,Star,Brave,1: Run Away,11,31,16,31,19,31,♂,Mischievous
+66256,403BFCA7,5025B424,Star,Docile,1: Run Away,31,31,23,31,24,16,♂,Takes plenty of siestas
+69952,8C473C14,D63B3238,Star,Timid,0: Serene Grace,31,23,1,2,31,31,♂,Takes plenty of siestas
+71183,424B1765,63DF87D4,Star,Lax,1: Run Away,31,2,31,31,28,1,♀,Capable of taking hits
+71959,5FC5AF34,98187C17,Star,Naughty,0: Serene Grace,26,16,31,31,6,31,♀,Capable of taking hits
+72499,AF006EE3,3E30DA33,Star,Gentle,0: Serene Grace,19,31,31,15,5,31,♂,Likes to thrash about
+72509,769AD4E1,1711F310,Star,Adamant,0: Serene Grace,11,30,31,30,31,31,♀,Capable of taking hits
+72913,435CC535,B83C5C32,Star,Hasty,0: Serene Grace,31,31,22,11,31,4,♂,Likes to thrash about
+73278,8D7EEEB2,FDEE19EE,Star,Quiet,0: Serene Grace,31,30,20,18,31,31,♀,Alert to sounds
+73890,FC1B47B2,EFC20BCC,Star,Bashful,0: Serene Grace,25,31,31,15,31,0,♀,Likes to thrash about
+78938,B70C5FC8,8A3D6E36,Star,Jolly,0: Serene Grace,15,15,31,5,31,31,♀,Somewhat vain
+79984,E421B90B,87D763D5,Star,Mild,1: Run Away,31,31,24,9,11,31,♂,Likes to thrash about
+82494,520EEF80,ED2C0920,Star,Lax,1: Run Away,22,5,31,31,31,17,♂,Mischievous
+82546,97B76DCB,79A29DA4,Star,Bold,0: Serene Grace,23,31,31,31,7,21,♂,Likes to thrash about
+86727,F64455BB,66FE82FC,Star,Calm,1: Run Away,31,30,19,31,18,31,♂,Alert to sounds
+87930,7A5DF663,578DB383,Star,Bold,0: Serene Grace,31,26,30,17,31,31,♀,Somewhat vain
+88508,A2F8BE43,08A2ECA7,Star,Careful,0: Serene Grace,26,14,31,31,4,31,♀,Capable of taking hits
+89463,C786A6E5,B73D533D,Star,Timid,0: Serene Grace,21,31,31,9,23,31,♂,Likes to thrash about
+91714,031D39E7,F48C108F,Star,Mild,0: Serene Grace,1,5,31,5,31,31,♂,Somewhat vain
+92036,89095A8A,C58C218B,Star,Hardy,1: Run Away,31,31,23,31,31,10,♂,Mischievous
+92083,0B76C70C,A32E4725,Star,Bashful,0: Serene Grace,18,31,4,31,31,2,♀,Mischievous
+93228,A31A5557,41C9A5C8,Star,Quiet,0: Serene Grace,21,31,31,31,30,3,♀,Likes to thrash about
+94026,961C6104,ED700975,Star,Brave,0: Serene Grace,31,31,31,5,31,27,♀,Takes plenty of siestas
+96920,EF393309,54D4B0D4,Star,Docile,0: Serene Grace,21,0,31,15,31,31,♂,Somewhat vain
+98009,AC3EB61F,4773A376,Star,Timid,0: Serene Grace,31,7,31,31,23,29,♀,Mischievous
+98024,585F68F7,AD4D494A,Star,Naive,0: Serene Grace,10,23,31,31,31,24,♂,Mischievous
+98403,4456E708,D96A3D69,Star,Docile,0: Serene Grace,31,0,31,9,31,31,♀,Takes plenty of siestas
+99242,51CA4C9B,B5495143,Star,Lax,0: Serene Grace,28,31,4,31,6,31,♂,Likes to thrash about
