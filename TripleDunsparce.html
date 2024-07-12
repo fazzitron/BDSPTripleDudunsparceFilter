@@ -17,22 +17,23 @@
 				return ret;
 			}
 			
-			function checkSegments(PID){
-				var ipid = parseInt(PID, 16);
-				if ((ipid % 100) == 0){
+			function checkSegments(EC){
+				var iec = parseInt(EC, 16);
+				if ((iec % 100) == 0){
 					return 3;
 				} else {
 					return 2;
 				}
 			}
 			
-			function checkPIDs(pokes){
+			function checkECs(pokes){
 				triples = [];
 				for (var i = 0; i < pokes.length; i++){
 					poke = pokes[i];
-					PID = poke[2];
-					if (checkSegments(PID) == 3){
+					EC = poke[1];
+					if (checkSegments(EC) == 3){
 						adv = poke[0];
+						PID = poke[2];
 						shiny = poke[3];
 						nature = poke[4];
 						ability = poke[5];
@@ -85,7 +86,7 @@
 				reader.onload = function(e) {
 					dunArray = splitFile(e.target.result);
 					console.log(dunArray);
-					triples = checkPIDs(dunArray);
+					triples = checkECs(dunArray);
 					console.log(triples);
 					printTriples(triples);
 				}
